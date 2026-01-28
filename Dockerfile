@@ -1,7 +1,5 @@
-# Usar Alpine Linux como imagen base
 FROM alpine:latest
 
-# Instalar Python 3
 RUN apk add --no-cache python3
 
 # Crear directorio de trabajo
